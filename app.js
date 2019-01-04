@@ -30,8 +30,8 @@ let gameNumber = 0;
 
 // ------- ------ Outputs/ Wins loses & Draws-----------
 
-const smallUserWord = 'user'.fontsize(3).sub()
-const smallCompWord = 'computer'.fontsize(3).sub()
+const smallUserWord = '(user)'.fontsize(3).sub()
+const smallCompWord = '(comp)'.fontsize(3).sub()
 
 function win(userChoice, computerChoice){
   userScore++
