@@ -44,7 +44,7 @@ function win(userChoice, computerChoice){
 function lose(userChoice, computerChoice){
   compScore++
   compScore_span.innerHTML = compScore;
-result_p.innerHTML = `${covertToWord(userChoice)}${smallUserWord} beats ${covertToWord(computerChoice)}${smallCompWord} You Lose 💩`
+result_p.innerHTML = `${covertToWord(computerChoice)}${smallCompWord} beats ${covertToWord(userChoice)}${smallUserWord} You Lose 💩`
 document.getElementById(userChoice).classList.add('redGlow');
 setTimeout( function(){document.getElementById(userChoice).classList.remove('redGlow')}, 700);
 }
